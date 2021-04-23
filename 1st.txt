@@ -1,0 +1,72 @@
+Class : Class is an object consructor or blue print of objectts.
+
+Declaration of class:
+---------------------
+
+public class MyClass{statements}
+
+where MyClass is the name of the class.
+-------------------------------------------------------------------------------------------------------------------
+Objects : Objects are instances of the class.
+
+Declaration of Objects:
+----------------------
+
+/* First create an object */
+ObjectReference = new Constructor();
+
+/* Now call a variable as follows */
+ObjectReference.variableName;
+
+/* Now you can call a class method as follows */
+ObjectReference.MethodName();
+----------------------------------------------------------------------------------------------------------------------
+
+Methods : A method is a block of code which is executed only when it is called.
+
+Declaration of method:
+---------------------
+
+modifier returnType nameOfMethod (Parameter List) {
+   // method body
+}
+The syntax shown above includes −
+
+modifier − It defines the access type of the method and it is optional to use.
+
+returnType − Method may return a value.
+
+nameOfMethod − This is the method name. The method signature consists of the method name and the parameter list.
+
+Parameter List − The list of parameters, it is the type, order, and number of parameters of a method. These are optional, method may contain zero parameters.
+
+method body − The method body defines what the method does with the statements.
+-------------------------------------------------------------------------------------------------------------------
+Signature : In Java, a method signature is part of the method declaration. It's the combination of the method name and the parameter list.
+
+Declaration of method signatures:
+---------------------------------
+
+Method Signature Examples
+public void setMapReference(int xCoordinate, int yCoordinate)
+{
+//method code
+}
+
+
+The method signature in the above example is setMapReference(int, int). In other words, it's the method name and the parameter list of two integers. 
+
+public void setMapReference(Point position)
+{
+//method code
+}
+
+The Java compiler will let us add another method like the above example because its method signature is different, setMapReference(Point) in this case.
+
+public double calculateAnswer(double wingSpan, int numberOfEngines, double length, double grossTons) 
+{
+   //method code
+}
+
+In our last example of a Java method signature, if you follow the same rules as the first two examples, you can see that the method signature here is calculateAnswer(double, int, double, double).
+

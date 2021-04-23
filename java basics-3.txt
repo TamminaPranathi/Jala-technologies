@@ -1,0 +1,22 @@
+/* package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+public class Main
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+    Scanner input = new Scanner (System.in);
+    System.out.print("Input your first name: ");
+    String fname = input.next();
+    System.out.print("Input your last name: ");
+    String lname = input.next();
+    System.out.println();
+    System.out.println("Hello \n"+fname+" "+lname);
+		
+		
+	}
+}
